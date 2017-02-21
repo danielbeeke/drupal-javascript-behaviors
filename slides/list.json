@@ -1,12 +1,24 @@
 [
+    "title.md",
     "index.md",
-    {
-        "attr": {
-            "data-background": "resources/lego-machine.jpg"
-        }
-    },
-    "drupal-is-modular.md",
-    "no-difference-for-javascript.md",
-    "body-onload.md",
-    "jquery-ready.md"
+    [
+        "chapter-1.md",
+        "hello-world.md",
+        "body-onload.md",
+        "jquery-ready.md",
+        "domready.md",
+        "drupal-javascript-initialisation.md"
+    ],
+    [
+        "chapter-2.md",
+        "drupal-behavior.md",
+        "namespace.md",
+        "use-strict.md",
+        "drupal-behaviors.md"
+    ],
+    [
+        "chapter-3.md",
+        "drupal-attachbehaviors.md"
+    ],
+    "drupalsettings.md"
 ]

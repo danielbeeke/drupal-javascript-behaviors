@@ -1,15 +1,13 @@
-##  jQuery ready
+####  jQuery ready
 
-Full notation
 ```
-$( document ).ready(function() {
-  // Handler for .ready() called.
-});
+$(document).ready(helloWorld)
+```
+```
+$(helloWorld)
 ```
 <br>
-Short notation
-```
-$(function() {
-  // Handler for .ready() called.
-});
-```
+* Detached from the HTML
+* Can be in &lt;body&gt;, it will always execute
+* Uses DOMContentLoaded and onload, fires when the DOM is loaded, or when everything is loaded
+* Dependency on the 'big' old jQuery

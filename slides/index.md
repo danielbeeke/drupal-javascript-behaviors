@@ -1,6 +1,5 @@
-# Drupal Javascript Behaviors
+##  Chapters
 
-by
-
-### Daniel Beeke
-#### Developer @ Studio Fonkel
+* The page has loaded, what now?
+* Behaving with order in module land
+* Starting the engine
