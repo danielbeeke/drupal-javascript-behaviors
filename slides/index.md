@@ -1,10 +1,6 @@
-
 # Drupal Javascript Behaviors
 
-From the terminal, pop in:
+by
 
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+### Daniel Beeke
+#### Developer @ Studio Fonkel

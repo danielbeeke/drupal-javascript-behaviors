@@ -1,1 +1,12 @@
-["index.md"]
+[
+    "index.md",
+    {
+        "attr": {
+            "data-background": "resources/lego-machine.jpg"
+        }
+    },
+    "drupal-is-modular.md",
+    "no-difference-for-javascript.md",
+    "body-onload.md",
+    "jquery-ready.md"
+]
