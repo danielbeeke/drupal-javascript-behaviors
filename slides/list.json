@@ -14,11 +14,12 @@
         "drupal-behavior.md",
         "namespace.md",
         "use-strict.md",
-        "drupal-behaviors.md"
+        "drupal-behaviors.md",
+        "drupalsettings.md",
+        "atach-detach.md"
     ],
     [
         "chapter-3.md",
         "drupal-attachbehaviors.md"
-    ],
-    "drupalsettings.md"
+    ]
 ]

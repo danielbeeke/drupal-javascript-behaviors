@@ -1,3 +1,14 @@
-##  drupalSettings
+####  drupalSettings
 
-This is a new Markdown slide
+A way to ship PHP variables to the javascript frontend.
+
+_Inside a render array_
+```
+$build['#attached']['drupalSettings']['my_module']['foo'] = 'bar';
+```
+<br>
+
+_Inside the behavior_
+```
+attach: function (context, drupalSettings) {}
+```
