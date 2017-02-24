@@ -1,4 +1,5 @@
 #### Namespace
+<br>
 
 ```
 (function ($) {
@@ -14,4 +15,4 @@
 
 <br>
 * Makes it possible to using different version of a library.
-* Makes injecting libraries a possibility, [jqmulti](https://www.drupal.org/project/jqmulti)
+* Makes injecting libraries a possible, see [jqmulti](https://www.drupal.org/project/jqmulti) for an example

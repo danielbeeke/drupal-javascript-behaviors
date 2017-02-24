@@ -1,3 +1,3 @@
 ####  Chapter 3
 
-## Starting the engine
+## Starting the engine and shifting gears

@@ -20,6 +20,7 @@
     ],
     [
         "chapter-3.md",
-        "drupal-attachbehaviors.md"
+        "drupal-attachbehaviors.md",
+        "ajax.md"
     ]
 ]
