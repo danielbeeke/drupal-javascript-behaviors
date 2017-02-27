@@ -16,11 +16,16 @@
         "use-strict.md",
         "drupal-behaviors.md",
         "drupalsettings.md",
-        "atach-detach.md"
+        "atach-detach.md",
+        "drupal-attachbehaviors.md"
     ],
     [
         "chapter-3.md",
-        "drupal-attachbehaviors.md",
-        "ajax.md"
-    ]
+        "arrow-functions.md",
+        "classes.md",
+        "transpiling.md",
+        "jspm.md"
+    ],
+    "chapter-4.md",
+    "constants.md"
 ]
