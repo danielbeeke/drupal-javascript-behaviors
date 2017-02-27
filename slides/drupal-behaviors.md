@@ -15,6 +15,4 @@ Drupal.behaviors.wysiwyg
 Drupal.behaviors.myExample
 ```
 <br>
-
-* Drupal.behaviors is an object, <br>a set of plugins that need to be executed
-* Every module may add it's attach and/or<br>detach functions to it
+Drupal.behaviors is an object, <br>a set of plugins that need to be executed
