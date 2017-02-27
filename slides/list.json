@@ -2,7 +2,12 @@
     "title.md",
     "index.md",
     [
-        "chapter-1.md",
+        {
+            "filename": "chapter-1.md",
+            "attr": {
+                "data-background": "resources/airplane.jpg"
+            }
+        },
         "hello-world.md",
         "body-onload.md",
         "jquery-ready.md",
@@ -10,7 +15,12 @@
         "drupal-javascript-initialisation.md"
     ],
     [
-        "chapter-2.md",
+        {
+          "filename": "chapter-2.md",
+          "attr": {
+            "data-background": "resources/roads.jpg"
+          }
+        },
         "drupal-behavior.md",
         "namespace.md",
         "use-strict.md",
@@ -20,7 +30,12 @@
         "drupal-attachbehaviors.md"
     ],
     [
-        "chapter-3.md",
+      {
+        "filename": "chapter-3.md",
+        "attr": {
+          "data-background": "resources/babel.jpg"
+        }
+      },
         "es6.md",
         "arrow-functions.md",
         "arrow-functions-shorthand.md",
@@ -39,7 +54,12 @@
         "jspm.md"
     ],
     [
-        "chapter-4.md",
+      {
+        "filename": "chapter-4.md",
+        "attr": {
+          "data-background": "resources/illusionist.jpg"
+        }
+      },
         "how-to-combine-es6-drupal.md",
         "init-jspm-configure-it-to-work-with-drupal-8.md",
         "jspm-config.md",
@@ -47,5 +67,6 @@
         "drupal-module-libraries-yml.md",
         "monkey-patch.md",
         "now-you-can-use-es6-and-drupal-behaviors.md"
-    ]
+    ],
+    "thanks.md"
 ]

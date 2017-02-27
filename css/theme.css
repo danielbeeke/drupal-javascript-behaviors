@@ -11,8 +11,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #111;
+  background-color: #111; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -22,7 +22,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #bee4fd;
+  background: #ffe079;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -205,20 +205,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #f8bf00;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #8dcffc;
+  color: #ffd446;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #068de9; }
+  background: #ac8400; }
 
 /*********************************************
  * IMAGES
@@ -240,7 +240,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #42affa;
+  border-color: #f8bf00;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -248,31 +248,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #42affa; }
+  border-right-color: #f8bf00; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #42affa; }
+  border-left-color: #f8bf00; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #42affa; }
+  border-bottom-color: #f8bf00; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #42affa; }
+  border-top-color: #f8bf00; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #8dcffc; }
+  border-right-color: #ffd446; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #8dcffc; }
+  border-left-color: #ffd446; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #8dcffc; }
+  border-bottom-color: #ffd446; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #8dcffc; }
+  border-top-color: #ffd446; }
 
 /*********************************************
  * PROGRESS BAR
@@ -281,10 +281,48 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #42affa;
+  background: #f8bf00;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
 .reveal pre code {
   max-height: 500px; }
+
+.reveal pre {
+  margin-left: 0; }
+
+.author-image {
+  margin-top: 20px;
+  width: 170px;
+  border-radius: 50%;
+  border: 0 !important;
+  float: left; }
+
+.author-info {
+  margin-top: 50px !important;
+  float: left; }
+
+.author-info .right {
+  float: left;
+  margin-top: 45px;
+  margin-left: 30px; }
+  .author-info .right h3, .author-info .right h4 {
+    margin: 0; }
+
+.reveal .slides {
+  text-align: left; }
+
+.reveal .progress {
+  height: 10px; }
+
+.backgrounds:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .6; }
