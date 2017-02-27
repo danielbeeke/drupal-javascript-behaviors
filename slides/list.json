@@ -34,6 +34,7 @@
         "classes-inheritance.md",
         "modules-and-imports.md",
         "transpiling.md",
+        "babel.md",
         "jspm.md"
     ],
     "chapter-4.md"
