@@ -21,11 +21,20 @@
     ],
     [
         "chapter-3.md",
+        "es6.md",
         "arrow-functions.md",
+        "arrow-functions-shorthand.md",
+        "block-scoped-variables.md",
+        "constants.md",
+        "function-parameter-defaults.md",
+        "rest-parameter.md",
+        "spread-operator.md",
+        "template-literals.md",
         "classes.md",
+        "classes-inheritance.md",
+        "modules-and-imports.md",
         "transpiling.md",
         "jspm.md"
     ],
-    "chapter-4.md",
-    "constants.md"
+    "chapter-4.md"
 ]

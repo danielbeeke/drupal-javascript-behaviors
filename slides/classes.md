@@ -1,3 +1,19 @@
-##  Classes
+####  Classes
+<br>
 
-This is a new Markdown slide
+```
+class Widget {
+    name = ''
+
+    constructor (name) {
+        this.name = name;
+    }
+    
+    myMethod (parameterX) {
+        // Method
+    }
+}
+
+let myWidget = new Widget('my-widget');
+
+```
