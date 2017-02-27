@@ -37,5 +37,9 @@
         "babel.md",
         "jspm.md"
     ],
-    "chapter-4.md"
+    [
+        "chapter-4.md",
+        "how-to-combine-es6-drupal.md",
+        "init-jspm-configure-it-to-work-with-drupal-8.md"
+    ]
 ]
